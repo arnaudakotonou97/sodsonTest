@@ -1,0 +1,102 @@
+
+/*--------------------------------------------------------------
+# Style commun
+--------------------------------------------------------------*/
+body {
+  background: #fff;
+  color: #9C9B9B;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sd-wrapper {
+  background: #303657;
+  height: 60vh;
+  display: grid;
+  box-shadow: #7979798a 11px 17px 3px;
+}
+
+.my-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-fluid{
+  padding: 2rem;
+}
+
+
+
+.form-group {
+  margin-bottom: 2.5rem;
+  padding: 0 1rem;
+}
+
+.btn {
+  background-color: #27B10E;
+  color: #fff;
+  width: 100%;
+  box-shadow: #7979798a 4px 5px 3px;
+}
+
+h1{
+  font-size: 2rem;
+  padding: 2.5rem 0 1.5rem 0;
+  color: #fff;
+  text-align: center;
+}
+
+h2{
+  font-size: 1.8rem;
+  color: #9C9B9B;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+
+p{
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .white-bg {
+    background-color: white;
+  }
+
+  .sm-h1{
+    padding-top: 0;
+    padding-bottom: 3rem;
+  }
+
+  .sm-btn {
+    border-radius: 50px;
+    box-shadow: #79797970 4px 5px 7px;
+  }
+
+  .sm-nodisplay{
+    display: none;
+  }
+
+  .img-fluid{
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .sm-display{
+    display: none;
+  }
+
+  .sd-wrapper{
+    margin: 12% 10%;
+  }
+
+  .form-control {
+    box-shadow: #85898c9e 4px 5px 3px;
+  }
+  
+}
+
+
+
